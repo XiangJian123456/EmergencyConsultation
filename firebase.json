@@ -1,0 +1,59 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "medical-emergency-38bb9",
+          "appId": "1:881936989809:android:71d00ca1b4a24c1cd665d0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "medical-emergency-38bb9",
+          "configurations": {
+            "android": "1:881936989809:android:71d00ca1b4a24c1cd665d0",
+            "ios": "1:881936989809:ios:09c327368b9f5e3fd665d0",
+            "macos": "1:881936989809:ios:09c327368b9f5e3fd665d0",
+            "web": "1:881936989809:web:cc3291e9c73a65edd665d0",
+            "windows": "1:881936989809:web:76ccef8eb90b0a5bd665d0"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    },
+    {
+      "source": "emergency_functions",
+      "codebase": "emergency_functions",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881936989809",
+    "project_id": "medical-emergency-38bb9",
+    "storage_bucket": "medical-emergency-38bb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881936989809:android:71d00ca1b4a24c1cd665d0",
+        "android_client_info": {
+          "package_name": "com.example.emergencyconsultation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFkPoQbskMVzhc5tQEuZKN2SyCvXLuUeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
